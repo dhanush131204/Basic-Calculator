@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.calculator {
+    width: 300px;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.display {
+    background-color: #222;
+    color: white;
+    font-size: 2rem;
+    padding: 20px;
+    text-align: right;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.previous-operand {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    height: 20px;
+}
+
+.current-operand {
+    font-size: 1.8rem;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.span-two {
+    grid-column: span 2;
+}
+
+.operation {
+    background-color: #ff9500;
+    color: white;
+}
+
+.number {
+    background-color: #505050;
+    color: white;
+}
+
+.clear, .delete {
+    background-color: #a5a5a5;
+}
+
+.equals {
+    background-color: #ff9500;
+    color: white;
+}
+
+@media (max-width: 400px) {
+    .calculator {
+        width: 280px;
+        padding: 15px;
+    }
+    
+    button {
+        padding: 12px;
+        font-size: 1.1rem;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0e0e0; /* Uniform light gray background */
+}
+
+.calculator {
+    width: 300px;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.display {
+    background-color: #222;
+    color: white;
+    font-size: 2rem;
+    padding: 20px;
+    text-align: right;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.previous-operand {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    height: 20px;
+}
+
+.current-operand {
+    font-size: 1.8rem;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.span-two {
+    grid-column: span 2;
+}
+
+.operation {
+    background-color: #ff9500;
+    color: white;
+}
+
+.number {
+    background-color: #505050;
+    color: white;
+}
+
+.clear, .delete {
+    background-color: #a5a5a5;
+}
+
+.equals {
+    background-color: #ff9500;
+    color: white;
+}
+
+@media (max-width: 400px) {
+    .calculator {
+        width: 280px;
+        padding: 15px;
+    }
+    
+    button {
+        padding: 12px;
+        font-size: 1.1rem;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Composite gradient background */
+    background: linear-gradient(135deg, 
+                #f5f7fa 0%, 
+                #e4e8eb 25%, 
+                #d8e1e8 50%, 
+                #c8d7e2 75%, 
+                #b8cde0 100%);
+    background-attachment: fixed;
+}
+
+.calculator {
+    width: 300px;
+    background-color: rgba(51, 51, 51, 0.95); /* Slightly transparent dark */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Rest of your existing CSS remains the same */
+.display {
+    background-color: rgba(34, 34, 34, 0.9);
+    /* ... keep existing display styles ... */
+}
+
